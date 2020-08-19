@@ -9,5 +9,6 @@
   "dependencies": {
     "@line/bot-sdk": "^7.0.0",
     "express": "^4.16.3"
-  }
+  },
+  "license": "MIT"
 }
