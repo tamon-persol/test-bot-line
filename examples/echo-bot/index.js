@@ -28,6 +28,8 @@ app.post('/callback', line.middleware(config), (req, res) => {
     });
 });
 
+app.get('/', (req, res) => res.json({ test: "hook" })
+);
 // event handler
 function handleEvent(event) {
   if (event.type !== 'message' || event.message.type !== 'text') {
